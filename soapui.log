@@ -1,0 +1,22 @@
+2015-08-01 03:01:24,123 WARN  [SoapUI] Missing folder [C:\Workspaces\Juliano\testes\cadastro-endereco\ext] for external libraries
+2015-08-01 03:01:24,321 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\juliano.cervelin\soapui-settings.xml]
+2015-08-01 03:01:24,803 INFO  [WsdlProject] Loaded project from [file:/C:/Workspaces/Juliano/testes/cadastro-endereco/soapui/REST-Project-CadastroEndereco-soapui-project.xml]
+2015-08-01 03:01:25,027 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project CadastroEndereco]
+2015-08-01 03:01:25,028 INFO  [SoapUITestCaseRunner] Running TestSuite [CadastroEndereco TestSuite], runType = SEQUENTIAL
+2015-08-01 03:01:25,036 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [READ - GET TestCase]
+2015-08-01 03:01:25,051 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 03:01:25,359 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 03:01:25,360 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [READ - GET TestCase], time taken: 92ms, status: FINISHED
+2015-08-01 03:01:25,362 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CREATE - POST TestCase]
+2015-08-01 03:01:25,362 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 03:01:25,373 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 03:01:25,373 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CREATE - POST TestCase], time taken: 5ms, status: FINISHED
+2015-08-01 03:01:25,374 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [UPDATE - PUT TestCase]
+2015-08-01 03:01:25,374 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 03:01:25,382 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 03:01:25,382 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [UPDATE - PUT TestCase], time taken: 4ms, status: FINISHED
+2015-08-01 03:01:25,382 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DELETE - DELETE TestCase]
+2015-08-01 03:01:25,383 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2015-08-01 03:01:25,392 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2015-08-01 03:01:25,392 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DELETE - DELETE TestCase], time taken: 5ms, status: FINISHED
+2015-08-01 03:01:25,392 INFO  [SoapUITestCaseRunner] TestSuite [CadastroEndereco TestSuite] finished with status [FINISHED] in 361ms
