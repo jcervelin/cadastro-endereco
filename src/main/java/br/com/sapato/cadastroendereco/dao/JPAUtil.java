@@ -6,7 +6,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 public class JPAUtil {
-	
+	//Classe utilitaria para aumentar a performance do gerenciamento de transacoes do JPA
 	private static final String PERSISTENCE_UNIT = "sapatoPU";
 	private static ThreadLocal<EntityManager> threadEntityManager = new ThreadLocal<EntityManager>();
 	private static EntityManagerFactory entityManagerFactory;

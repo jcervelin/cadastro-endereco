@@ -53,6 +53,7 @@ public class EnderecoService {
 	public Response getMsgPut(Endereco endereco) {
 		try {
 			business = new EnderecoBusiness(new EnderecoDAO());
+			//Se validação falhar uma mensagem de erro será exibida no lugar do JSON
 			if (validate(endereco))
 				endereco = business.update(endereco);
 			else
@@ -76,6 +77,7 @@ public class EnderecoService {
 		}
 	}
 	
+	//Valida os campos obrigatórios
 	private boolean validate(Endereco endereco){
 		if (	endereco.getLogradouro() == null ||
 				endereco.getNumero() == null ||

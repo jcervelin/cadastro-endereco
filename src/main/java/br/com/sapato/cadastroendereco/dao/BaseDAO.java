@@ -2,8 +2,7 @@ package br.com.sapato.cadastroendereco.dao;
 
 import javax.persistence.EntityManager;
 
-import br.com.sapato.cadastroendereco.domain.Endereco;
-
+//Classe criada com o intuito de reuso, caso novas entidades sejam incluídas no projeto
 public class BaseDAO<E, PK> implements IBaseDAO<E, PK> {
 	
 	public EntityManager em;
